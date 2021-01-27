@@ -1,0 +1,128 @@
+body{
+    font-family: 'Nunito', sans-serif;
+  }
+  #header{
+    background-color: #292727;
+    color: #fff;
+  }
+  .container-fluid{
+    padding: 3% 15% 7%;
+  }
+  h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  }
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+  }
+
+  /* Menu bar */
+
+  .navbar{
+    padding: 0 0 4.5rem;
+  }
+  .navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .city-view{
+    width: 50%;
+    height: 45%;
+    position: absolute;
+    right: 5%;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ /* about */
+ #about{
+   padding-top: 5%;
+}
+
+/* gallery */
+
+.image-block {
+    border: 3px solid white ;
+    background-color:#292727;
+    padding: 0px;    
+    margin: 0px;
+    height:300px;
+    text-align: center;
+    vertical-align: bottom;
+}
+.image-block > p {
+    width: 100%;
+    height: 100%;
+    font-weight: normal;
+    font-size: 19px;
+    padding-top: 150px;
+    background-color: rgba(3,3,3,0.0);
+    color: rgba(6,6,6,0.0);
+    
+}
+.image-block:hover > p {
+    background-color: rgba(3,3,3,0.5);    
+    color: white;
+  }
+  
+/* testimonials */
+
+  #testimonials{
+    background-color: #292727;
+    text-align: center;
+    color: #fff;
+  }
+  .carousel-item{
+    padding: 7% 15%;
+  }
+  .testimonial-image{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+  }
+
+  /* footer */
+  #footer{
+    padding:2%;
+    text-align: center;
+  }
+  .social-icons {
+    padding: 0;
+    margin: 0;
+  }
+  .social-icons li {
+    display: inline-block;
+    list-style: none;
+  }
+  .social-icons li a {
+    background: #666666;
+    border-radius: 50%;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transition: all 0.4s ease-in;
+    position: relative;
+    bottom: 10px;
+    top: 10px;
+  }
+  .social-icons li a:hover {
+    background: #202020;
+    color: #fff;
+  }
+
+  @media (max-width:1020px) {
+    .city-view{
+      position: static;
+    }
+    #header{
+      text-align: center;
+    }
+  
+  }
+  
